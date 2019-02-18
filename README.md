@@ -1,5 +1,6 @@
 # spring-employees
-Config repo for API Workshop 02/18
+
+Pre-built Employees API
 
 ## Build & Push the app
 

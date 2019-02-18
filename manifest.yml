@@ -1,0 +1,11 @@
+applications:
+  - buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
+    name: spring-employees
+    memory: 2048m
+    path: target/employee-0.0.1-SNAPSHOT.jar
+    random-route: true
+    services:
+      - mysql-service
+      - config-service
+    timeout: 180
